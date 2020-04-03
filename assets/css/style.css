@@ -94,17 +94,17 @@ input:-webkit-autofill:focus{
     transition: all 0.2s;
 }
 .btn:hover{
-	border: 2px solid #555;
+	border: 1px solid #555;
 	color: rgba(0, 0, 0, 0.8);
 }
 input,label{
 	cursor: pointer;
 }
-label.check{
+.check{
 	position: relative;
 	margin-left: 1rem;
 }
-span.autologin:before{
+.autologin:before{
 	position: absolute;
 	top:-0.1rem;
 	left:-1.5rem;	
@@ -115,6 +115,6 @@ span.autologin:before{
 	cursor: pointer;
 	transition: all 0.2s;
 }
-input:checked + span.autologin:before{
+input:checked + .autologin:before{
 	color: #FE9B03;
 }
